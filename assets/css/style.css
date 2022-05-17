@@ -74,16 +74,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding:3rem;
   border: solid;
   border-radius: 20px;
   height: 4rem;
-  width: 20rem;
-  font-size: 2rem;
+  width: 12rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
   background-color: orangered;
   box-shadow: 10px 10px 10px brown;
-  margin: 1rem;
+  margin: 1.2rem;
 }
 footer {
   display: flex;
