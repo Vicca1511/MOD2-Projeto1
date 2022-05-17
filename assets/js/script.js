@@ -11,8 +11,8 @@ botao.addEventListener("click", () => {
 });
 
 let arrayImagens = [];
-let est0 = "Normal";
-let est1 = "Gear 1";
+let est0 = "Monkey D.Luffy";
+let est1 = "Gear One";
 let est2 = "Snake Man";
 let est3 = "Bound Man";
 let est4 = "JoyBoy"
