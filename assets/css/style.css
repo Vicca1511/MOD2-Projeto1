@@ -1,102 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&family=Roboto+Mono&family=Supermercado+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&family=Roboto+Mono&family=Supermercado+One&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    
+  padding: 0;
+  margin: 0;
 }
 
-html ,body{
-
-    height: 100%;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
-
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    border-bottom: solid;
-    font-size: 2rem;
-    font-weight: bold;
-    background-image: linear-gradient(gold , red);
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-bottom: solid;
+  font-size: 2rem;
+  font-weight: bold;
+  background-image: linear-gradient(gold, red);
 }
-.principal{
-    display: flex;
-    margin: 0 auto;
-    
-
-    
+.principal {
+  display: flex;
+  margin: 0 auto;
 }
-.caixa__imagem{
-    display: flex;
-    justify-content: space-around;
-    height: 900px;
-    align-items: center;
-    padding: 0 10% 0 10% ;
-    background-image: url(https://static3.srcdn.com/wordpress/wp-content/uploads/2022/03/one-piece-lyffy-red-hawk.jpg);
-    background-size: cover;
-    
+.caixa__imagem {
+  display: flex;
+  justify-content: space-around;
+  height: 900px;
+  align-items: center;
+  padding: 0 10% 0 10%;
+  background-image: url(https://static3.srcdn.com/wordpress/wp-content/uploads/2022/03/one-piece-lyffy-red-hawk.jpg);
+  background-size: cover;
 }
-#imagem{
-    
-    border: solid black ;
-    border-radius: 35px;
-    margin: 80px;
-    margin-bottom: 8rem;
-
-    
-    
+#imagem {
+  border: solid black;
+  border-radius: 35px;
+  margin: 80px;
+  margin-bottom: 8rem;
 }
-#fig{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid;
-    border-radius: 20px;
-    height: 4rem;
-    width: 20rem;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: aliceblue;
-    padding: 1rem;
-    
+#fig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-radius: 20px;
+  height: 4rem;
+  width: 20rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: aliceblue;
+  padding: 1rem;
 }
-.secao{
-    display: flex;
-    justify-content: space-around;
-    height: 5rem;
-    padding-top: 35px;
-    
-    
-
+.secao {
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  padding-top: 35px;
 }
-#botao{
-    height: 5rem;
-    width: 18rem;
-    margin:  0 0 30px;
-    border: solid black ;
-    border-radius: 65px;
-    background-color: goldenrod;
-    font-size: 22px;
-    color: rgb(250, 3, 32);
-    transition: .5s ease-in-out;
+#botao {
+  height: 5rem;
+  width: 18rem;
+  margin: 0 0 30px;
+  border: solid black;
+  border-radius: 65px;
+  background-color: goldenrod;
+  font-size: 22px;
+  color: rgb(250, 3, 32);
+  transition: 0.5s ease-in-out;
 }
-#botao:hover{
-    transform: scale(1.3);
-    transition: .5s ease-in-out;
-    cursor: pointer;
-    background-color: gold;
-    color: green;
-
+#botao:hover {
+  transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: gold;
+  color: green;
 }
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 300px;
-    background-image: linear-gradient(gold , red);
-    
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  background-image: linear-gradient(gold, red);
 }
