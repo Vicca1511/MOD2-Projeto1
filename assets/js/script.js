@@ -3,7 +3,7 @@ let novaImagem = document.querySelector("#imagem");
 let novoEstado = document.querySelector("#fig");
 
 botao.addEventListener("click", () => {
-  console.log("Click");
+  
   mudarImg(novaImagem, arrayImagens)
   mudaEstado()
   
